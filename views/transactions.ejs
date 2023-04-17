@@ -1,0 +1,25 @@
+<%- include("partials/header") -%>
+    <table class="table">
+      <thead>
+        <tr>
+          <th scope="col">#</th>
+          <th scope="col">From</th>
+          <th scope="col">To</th>
+          <th scope="col">Amount</th>
+        </tr>
+      </thead>
+      <tbody>
+        <%for(var i=0;i<trans.length;i++){%>
+          <tr>
+              <th scope="row"><%=i+1%></th>
+            <td><%=trans[i].send%></td>
+            <td><%=trans[i].rec%></td>
+            <td><%=trans[i].amount%></td>
+          </tr>
+        <%}%>
+      
+      </tbody>
+    </table>
+      </body>
+    </html>
+<%- include("partials/footer");-%>

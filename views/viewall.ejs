@@ -1,0 +1,25 @@
+<%- include("partials/header") -%>
+<h4></h4>
+<h3>Users List </h3>
+    <table class="table">
+      <thead>
+        <tr>
+          <th scope="col">Name</th>
+          <th scope="col">Acoount no</th>
+          <th scope="col">Email</th>
+          <th scope="col">Amount</th>
+        </tr>
+      </thead>
+      <tbody>
+        <%users.forEach(function(user){%>
+          <tr>
+            <td><%=user.name%></td>
+            <td><%=user.account_no%></td>
+            <td><%=user.mail%></td>
+            <td><%=user.balance%></td>
+          </tr>
+        <%});%>
+
+      </tbody>
+    </table>
+<%- include("partials/footer");-%>

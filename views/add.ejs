@@ -1,0 +1,26 @@
+<%- include("partials/header")-%>
+
+<div class="login" style="margin-top:2%;">
+
+<form class="login" action="\entry" method="post">
+  <div class="mb-3">
+    <label for="exampleInputEmail1" class="form-label">Email address</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"name="email"value="">
+  </div>
+  <div class="mb-3">
+    <label for="exampleInputPassword1" class="form-label">Accoutn No</label>
+    <input type="number" class="form-control" id="exampleInputPassword1"name="account_no"value="">
+  </div>
+  <div class="mb-3">
+    <label for="exampleInputPassword1" class="form-label">Name</label>
+    <input type="text" class="form-control" id="exampleInputPassword1"name="name"value="">
+  </div>
+  <div class="mb-3">
+    <label for="exampleInputPassword1" class="form-label">Balance</label>
+    <input type="number" class="form-control" id="exampleInputPassword1" name="balance"value="">
+  </div>
+
+  <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+</div>
+<%- include("partials/footer") -%>

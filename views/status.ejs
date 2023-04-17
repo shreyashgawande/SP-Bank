@@ -1,0 +1,9 @@
+<%- include("partials/header") -%>
+<% if (status === "Success") { %>
+  <img src="img/img1.png" class="Success" alt="">
+  <h2>Successfully Transfered Amount</h2>
+<% } else { %>
+  <img src="img/img2.png" class="Success" alt="">
+  <h2>Failed to Transfer Amount</h2>
+<% } %>
+<%- include("partials/footer") -%>

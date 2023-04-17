@@ -1,0 +1,76 @@
+body{
+  background-color: #E9F8F9 ;
+  text-align: center;
+}
+h1{
+  margin-top: 18%;
+  font-size: 3rem;
+
+}
+.navbar-item:hover{
+  color: red;
+}
+.user_data{
+  font-size: 3rem;
+    align-content: center;
+}
+table, th, td {
+  border: 1px solid black;
+}
+input{
+  border-radius: 2%;
+}
+nav:hover{
+  color: white;
+}
+.top{
+  color: white;
+padding-left: 2%;
+
+}
+.item{
+  color: white;
+}
+.titleimg{
+  display: inline-block;
+  height:40%;
+  width: 40%;
+
+  z-index: -1;
+}
+.Success{
+  height:30%;
+  width: 20%;
+}
+
+.pclass{
+  font-style: italic;
+  color: brown;
+  font-weight: bold;
+  font-size: 1.5rem;
+  position: absolute;
+  display: inline;
+  text-align: left;
+  padding: 14% 60% 7% 5%;
+
+}
+#desc{
+  padding: 5% 0 10% 0;
+
+  position: relative;
+  margin: 30px;
+}
+.btnClass{
+  margin-top: 2%;
+  margin-bottom: 3%;
+}
+.login{
+  align-content: center;
+  display: inline-block;
+}
+.user{
+  display: flex;
+  flex-wrap:nowrap;
+  justify-content: space-around;
+  align-content:space-between;
+}

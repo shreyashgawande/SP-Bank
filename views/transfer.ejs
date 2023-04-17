@@ -1,0 +1,33 @@
+<%-include("partials/header")-%>
+      <form class="" action="/transfer" method="post">
+
+        <div class="feature-card">
+
+    <div class="row" style="margin:5%;" >
+      <div class="col-6">
+
+        <div class="card" style="width: 18rem; height :15rem;">
+          <div class="card-body">
+            <h3>Sender</h3>
+            <input type="text" name="senderaccount_no" value=""placeholder="Account no" required>
+            <input type="email" name="sendermail" value=""placeholder="email">
+            <input type="number" name="amount" value="" placeholder="amount">
+          </div>
+        </div>
+
+      </div>
+      <div class="col lg-6">
+        <div class="card" style="width: 18rem; height:15rem;">
+          <div class="card-body">
+            <h3>Reciever</h3>
+            <input type="text" placeholder="Account no"name="reciever_account_no" value="" required>
+            <input type="email"placeholder="email" name="receiver_email" value="">
+          </div>
+        </div>
+      </div>
+
+  </div>
+  </div>
+  <button type="submit"  class="btn btn-primary btn-lg bg-dark btnClass">Send</button>
+      </form>
+<%-include("partials/footer");-%>

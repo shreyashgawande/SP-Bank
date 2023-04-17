@@ -1,0 +1,44 @@
+<%- include("partials/header");-%>
+
+<div class="user">
+
+        <table border="1" class="user_data ">
+          <tr>
+            <td>
+              Name :
+            </td>
+            <td>
+            <%=user.name%>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              Account No:
+            </td>
+            <td>
+            <%=user.account_no%>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              Email:
+            </td>
+            <td>
+                <%=user.mail%>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              Balance:
+            </td>
+            <td>
+              <%=user.balance%>
+            </td>
+          </tr>
+        
+
+
+        </table>
+
+      </div>
+<%- include("partials/footer");-%>
